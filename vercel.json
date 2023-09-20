@@ -1,0 +1,10 @@
+{ 
+     "version": 2, 
+     "name": "Stories App", 
+     "builds": [ 
+        { "src": "/index.mjs", "use": "@vercel/node" } 
+     ], 
+     "routes": [ 
+        { "src": "/(.*)", "dest": "/server.mjs" } 
+     ] 
+}
